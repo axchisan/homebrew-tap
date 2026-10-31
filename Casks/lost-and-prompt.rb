@@ -1,12 +1,13 @@
 cask "lost-and-prompt" do
-  version "0.1.1"
-  sha256 "4656a9d84a947346d35444131eb50ca6d3b607cf5e809e2c1f8049bc0c500010"
+  version "0.2.0"
+  sha256 "b0c5459898e529b4386fceaa09eaaa99a522ea0ed5df52784f83f80e5444bfde"
 
-  url "https://github.com/axchisan/lost-and-prompt/releases/download/v#{version}/LostAndPrompt-#{version}.dmg"
+  url "https://github.com/axchisan/lost-and-prompt/releases/download/v#{version}/LostAndPrompt-#{version}-macos-universal.dmg"
   name "Lost & Prompt"
   desc "Find, organize and resume all your Claude Code sessions"
   homepage "https://github.com/axchisan/lost-and-prompt"
 
+  auto_updates true
   depends_on macos: ">= :sequoia"
 
   app "Lost & Prompt.app"
