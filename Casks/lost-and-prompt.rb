@@ -1,6 +1,6 @@
 cask "lost-and-prompt" do
-  version "0.2.2"
-  sha256 "bf03a1692a4b6e5086820fc06b1587596301acd682195161b4e20313effc38a0"
+  version "0.2.3"
+  sha256 "5cab5dc731467cafa0370a91926e948f9bee89181b2a27724398ed1bccbd83ce"
 
   url "https://github.com/axchisan/lost-and-prompt/releases/download/v#{version}/LostAndPrompt-#{version}-macos-universal.dmg"
   name "Lost & Prompt"
