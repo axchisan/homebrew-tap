@@ -8,7 +8,7 @@ cask "lost-and-prompt" do
   homepage "https://github.com/axchisan/lost-and-prompt"
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Lost & Prompt.app"
 
